@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 68%);
+}
+.container{
+    width: 100%;
+    padding: 10px 10px;
+    color: aqua;
+    background-color: black;
+}
+
+.quiz{
+    color: orangered;
+    display: inline;
+}
+
+.hub{
+    color:white;
+    display: inline;
+}
+
+.question{
+    color: white;
+    display: inline;
+    font-size: 45px;
+}
+
+.background-images img{
+    position: absolute;
+    height: 575px;
+    width: 800px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.background-images img.active{
+    opacity: 1;
+}
+
+.welcome-container {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color:white ;
+}
+
+.welcome-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.welcome-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome-container img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 35%;
+
+}
